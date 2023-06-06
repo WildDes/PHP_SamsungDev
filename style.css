@@ -1,0 +1,80 @@
+@import url('https://fonts.google.com/share?selection.family=Geologica:wght@100');
+
+body {
+    font-family: 'Geologica:wght@100';
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: darkblue;
+    width: 90%;
+    max-width: 800px;
+    margin: 25px auto;
+    padding: 10px 40px;
+  }
+
+h2 {
+    font-family: 'Geologica:wght@100';
+    color: rgb(172,186,225);
+    background: rgb(47,54,68);
+    font-weight: bold;
+    margin: 0; 
+    margin-bottom: 25px;
+    font-size: 50px;
+}
+
+.formulario {
+    font-family: 'Geologica:wght@100';
+    border: 1px solid white;
+    max-width: 250px;
+    margin: auto;
+    padding: 20px 20px;
+  }
+
+label {
+    font-family: 'Geologica:wght@100';
+    color: darkblue;
+    padding: 15px 0;
+    font-weight: bold;
+    display: block;
+}
+
+input {
+    font-family: 'Geologica:wght@100';
+    position: relative;
+    width: 90%;
+    background: white;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    border-radius:6px;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid darkblue;
+    padding-left: 10px;
+}
+
+p {
+    margin-top: -5px;
+    font-size: small;
+    margin-bottom: -0.5px;
+}
+
+.boton {
+    color: #ffffff;
+    font-size: large;
+    font-weight: bolder;
+    background-color: #777a84;
+    border-radius: 2px;
+    height: 40px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px 15px;
+    display: block;
+    border: 1px solid white;
+}
+
+
+.boton:hover {
+    background-color: #494c51;
+}
