@@ -1,7 +1,6 @@
 /*Creamos el js para que coja los datos del formulario y valide.*/
 
 document.querySelector('form').addEventListener('submit', function(event) {
-    event.preventDefault();
 
     let nombre = document.querySelector('input[name="NOMBRE"]').value;
     let apellido = document.querySelector('input[name="APELLIDO"]').value;
@@ -12,7 +11,6 @@ document.querySelector('form').addEventListener('submit', function(event) {
         alert('¡Por favor, rellene todos los campos para completar el registro!');
     } else {
         alert('¡Registro enviado! :)');
-        document.querySelector('form').reset();
     }
 });
 document.querySelector('form').addEventListener('submit', validateForm);
